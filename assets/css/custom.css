@@ -1,0 +1,109 @@
+.menuBar{
+    display: inline-block;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+	
+}
+.menuBar li{
+	display:inline-block;
+	list-style:none;
+}
+
+.menuBar li a{
+	font-size:18px;
+}
+.logoutBtn{
+    font-size:18px;
+    margin-top: 5px;
+}
+.pannelHeading{
+	margin:0;
+	font-size: 18px;
+}
+.cust_pannel{
+	margin-top:45%;
+}
+/*.cust_pannel_body{
+    min-height: 20px;
+}*/
+
+.cust_pre{
+    height: 35px;
+    height: auto;
+    background: #eee;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+body{
+    background: #F2F5F7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.api_heading{
+        font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-top: 30px;
+}
+.panel-default>.panel-heading {
+    background: #f5f5f5;
+}
+.documentExpand > span{
+    font-size: 9px;
+    top: 0;
+}
+.documentCollapse > span{
+    font-size: 9px;
+    top: 0;
+}
+button#submitBtn {
+    background: #5CB85C;
+}
+textarea#jsonFile, textarea#reqJsonDoc, textarea#resExampleJson{
+    overflow-y: scroll;
+    resize: vertical;
+}
+.btn-info,.btn-info:hover,.btn-info:active{
+       background: #5BC0DE;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+a:focus, a:hover, a:active {
+    color: #3F9E3F;
+    text-decoration: none;
+}
+.home_body_content{
+    text-align: justify;
+    color: #555;
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+.home_body_content h3{
+    color: #25C6D9;
+    font-weight: bold;
+}
+td.doc_title {
+    width: 200px;
+}
+.home_table>tbody>tr>td{
+    border:none;
+}
+.active{
+    color:green;
+}
+.generalErrorJson {
+    padding: 15px;
+    box-shadow: 0px 0px 2px 0px;
+}
+.doc_panel_heading {
+    background: #00BCD4 !important;
+    padding: 15px;
+    color: #fff!important;
+}
+.documentation_body {
+    color: #555;
+}
